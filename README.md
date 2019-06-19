@@ -11,7 +11,7 @@ You can find in this portfolio :
 - My CV
 - Somes of the project I realized during my BeCode training: 
   - the Coockie Clicker
-  - the Single digital gateway hackathon
+  - the Single Digital Gateway hackathon
   - the restaurant project
   - the promo BeCode API project
   - the movieDB API project, AllezCiné
