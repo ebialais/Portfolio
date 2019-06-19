@@ -1,0 +1,22 @@
+#Header {
+    font-size: 2vh;
+    color : #dc7863;
+    display: flex;
+    align-items: center;
+    position: relative; 
+    right: 0;
+    top: 0;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+#headerH1{
+    position: fixed; 
+    right: 0;
+    top: 10px;
+}
+
+@media only screen and (max-width: 630px) {
+    #headerH1{
+        top: 40px;
+    }
+}

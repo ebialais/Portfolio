@@ -1,0 +1,54 @@
+#work {
+    width: 95vw;
+    margin-top: 50px;
+    /* transform: translateY(-50%); */
+}
+#wrapperWork {
+    /* margin-top: 45vh;
+    transform: translateY(-50%); */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 2%;
+}
+#buttonsWork{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.buttonWorkPage {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #dc7863;
+    color: white;
+    margin: 20px;
+}
+.fas {
+    font-size: 2.5em;
+}
+
+@media only screen and (max-width: 1315px) {
+    #work  {
+        margin-top: 0;
+        /* transform: translateY(-50%); */
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .fas {
+        font-size: 2em;
+    }
+    .goBackButton {
+        bottom: 70px;
+        left: 20px;
+        width: 40px;
+        height: 40px;
+    }
+    #buttonsWork{
+        flex-direction: column;
+    }
+}

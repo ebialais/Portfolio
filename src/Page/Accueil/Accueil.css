@@ -1,0 +1,37 @@
+
+#Accueil {
+    width: 90vw;
+}
+#wrapperAccueil {
+    margin-top: 40vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1%;
+    transform: translateY(-50%);
+}
+a {
+    text-decoration: none;
+}
+.shuffleButtonAccueil {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #dc7863;
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+    margin: 20px;
+}
+@media only screen and (max-width: 630px) {
+    #wrapperAccueil {
+        margin: 65vh 10px 10px 0;
+    }
+    .shuffleButton {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        width: 40px;
+        height: 40px;
+    }
+}
