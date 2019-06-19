@@ -9,8 +9,14 @@ const items = [
         imgs: "/img/img/Me.png",
         text:   <div id="pInfos">
                     <h3>Developpeuse web front-end</h3>
-                    Initialement kinésithérapeute, j'ai travaillé pendant 11 ans dans le secteur des soins intensifs. M'étant énormément investi dans la recherche clinique, j'ai pu développer un esprit <strong>logique</strong> et <strong>analytique</strong> fort.<br/> <br/>
-                    Au moment de réorienter ma carrière professionnelle et dans une volonté de mettre à profit cet esprit logique et analytique, tout en m'investissant dans un processus de <strong>création</strong>, je me suis orientée vers le <strong>développement web</strong>. D'abord un peu par hasard, j'ai decouvert en codant les joies et les peines du developpeur, j'y ai pris de plus en plus de plaisir et trouvé ainsi une vraie <strong>passion</strong>.
+                    Initialement kinésithérapeute, j'ai travaillé pendant 11 ans dans le secteur des soins intensifs. 
+                    M'étant énormément investi dans la recherche clinique, j'ai pu développer un esprit <strong>logique</strong> 
+                    et <strong>analytique</strong> fort.<br/> <br/>
+                    Au moment de réorienter ma carrière professionnelle et dans une volonté de mettre à profit cet esprit 
+                    logique et analytique, tout en m'investissant dans un processus de <strong>création</strong>, 
+                    je me suis orientée vers le <strong>développement web</strong>. D'abord un peu par hasard, 
+                    j'ai decouvert en codant les joies et les peines du developpeur, j'y ai pris de plus en plus de plaisir et 
+                    trouvé ainsi une vraie <strong>passion</strong>.
                 </div>,
     },{
         id: 111,

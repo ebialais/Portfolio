@@ -1,13 +1,18 @@
+import React from 'react';
+
 const travaux = [
     {
         id: 1,
         title: "API Promo BeCode",
         logo: "/img/logo/code.svg",
         imgs: "/img/img/MacAPIBecode.png",
-        text: `Premier exercice d'intégration d'une API. 
+        text: 
+            <div>
+                Premier exercice d'intégration d'une API. <br/> 
                 L'API reprend les différentes personnalités qui ont inspirées BeCode et qui ont données leurs noms
-                aux différentes promotions.`,
-        color: "#f5efe3",
+                aux différentes promotions. <br/>
+                L'exercice a été réalisé en <strong>HTML</strong>, <strong>CSS</strong> et <strong>JavaScript</strong>.
+            </div>,
         srcGithub: "https://github.com/ebialais/API_PromoBecode",
         srcProjet: "https://ebialais.github.io/API_PromoBecode/",
     },{
@@ -15,9 +20,14 @@ const travaux = [
         title: "Hackathon UE",
         logo: "/img/logo/europe.svg",
         imgs: "/img/img/UEHackathon.png",
-        text: `Hackathon organisé par l'Union Européenne. 24h pour trouver un moyen pour inciter les utilisateur 
-                de la plateforme de fournir un feedback. Notre équipe est arrivée à la troisième place.`,
-        color: "#f5efe3",
+        text: 
+            <div>
+                <strong>Hackathon</strong> organisé par l'Union Européenne. <br/>
+                Après 3 mois de formation, et en équipe de 4 personnes, nous avions <strong>24h</strong> pour trouver un 
+                moyen pour inciter les utilisateurs de la plateforme de fournir un feedback. <br/>
+                Le travail a été réalisé en <strong>HTML</strong>, <strong>CSS</strong> et <strong>Javascript</strong>.<br/>
+                Notre équipe est arrivée à la troisième place.
+            </div>,
         srcGithub: "https://github.com/ebialais/Single_digital_gateway",
         srcProjet: "https://ebialais.github.io/Single_digital_gateway/",
     },{
@@ -25,10 +35,12 @@ const travaux = [
         title: "Coockie Clicker",
         logo: "/img/logo/game.svg",
         imgs: "/img/img/coockiClicker.png",
-        text: `Tout premier travail de groupe (à 5) réaliser chez BeCode. Après 1 mois de formation, 
-                à l'aide des langages que nous avions appris alors (HTML/CSS/Javascript), nous avons eu une semaine 
-                pour créer un coockie clicker.` , 
-        color: "#f5efe3",
+        text: 
+            <div>
+                Après 1 mois de formation, nous avons effectué notre premier travail d'équipe (5 personnes). <br/>
+                A l'aide des langages que nous avions appris alors (<strong>HTML/CSS/Javascript</strong>), nous avons eu une semaine 
+                pour créer un <strong>coockie clicker</strong> qui devait posséder certaines fonctionnalités précises.
+            </div> , 
         srcGithub: "https://github.com/ebialais/cookieChoco",
         srcProjet: "https://corneliushka.github.io/cookieChoco/",
         
@@ -37,10 +49,12 @@ const travaux = [
         title: "Bootstrap Resto",
         logo: "/img/logo/restaurant.svg",
         imgs: "/img/img/RestoBootstrap.png",
-        text: `Projet de site web adapté à un restaurant. 5 pages HTML différentes sont intégrées 
-                selon des consignes précises. Le projet a été réalisé en HTML, CSS, Bootstrap et Javascript. Il a été 
-                effectué en une semaine.`,
-        color: "#f5efe3",
+        text: 
+            <div>
+                Projet de site web adapté à un <strong>restaurant</strong>. 5 pages HTML différentes sont intégrées 
+                selon des consignes précises. Le projet a été réalisé en <strong>HTML, CSS, Bootstrap et Javascript</strong>. Il a été 
+                effectué en une semaine.
+            </div>,
         srcGithub: "https://github.com/ebialais/bootstrap-resto-website",
         srcProjet: "https://ebialais.github.io/bootstrap-resto-website/",
     },{
@@ -48,12 +62,16 @@ const travaux = [
         title: "Geolia",
         logo: "/img/logo/map.svg",
         imgs: "/img/img/geolia.png",
-        text: `Projet réalisé pour une cliente de la formaation 'Pilote Media'. La cliente souhaitait réaliser 
-                une carte interactive regroupant les informations concernant les producteurs locaux, supermarchés bio, 
-                friperies, etc. Le projet se déroulait pendant 2 semaines. Un maximum de fonctionalités ont été mise en 
-                place, mais celui-ci n'a pas pu, en si peu de temps être totalement abouti. 
-                Il s'agit donc d'un prototype.Le projet a été réalisé en ReactJs.`,
-        color: "#f5efe3",
+        text: 
+            <div>
+                Projet réalisé dans le cadre d'un <strong>partenariat entre les apprenants BeCode et ceux de la formation Pilote Media</strong>. <br/>
+                La cliente souhaitait réaliser une <strong>carte interactive</strong> regroupant différentes informations en lien avec 
+                la "slow consommation" (producteurs locaux, supermarchés bio, 
+                friperies, etc).<br/>
+                Le projet s'est déroulé sur 2 semaines. Un maximum de fonctionalités ont été mises en 
+                place, mais celui-ci n'a pas pu, vu l'ampleur initiale du projet et le court delai imparti, être totalement abouti. 
+                Il s'agit donc d'un prototype. Le projet a été réalisé en <strong>ReactJs</strong>.
+            </div>,
         srcGithub: "",
         srcProjet: "https://becodeorg.github.io/PiloteMedia-Geolia/",
     },{
@@ -61,11 +79,14 @@ const travaux = [
         title: "Allez-Ciné",
         logo: "/img/logo/movie.svg",
         imgs: "/img/img/AllezCiné.png",
-        text: `Single Page Application utilisant VueJs et PHP. Integration de l'API 
-                'the MovieDB' pour afficher différents films et séries télé, selon un design imposé. 
-                Intégration d'une base de données et d'un formulaire permettant de laisser des commentaires sur 
-                les films. Le projet a été réalisé à 3 en une semaine.`,
-        color: "#f5efe3",
+        text: 
+            <div>
+                Projet de groupe (nous étions 3 personnes pendant 1 semaine) intégrant les données issues de <strong>l'API 
+                'the MovieDB'</strong>. Ces données devaient être affichées selon un design imposé dans une <strong>single page 
+                application</strong>. 
+                Nous devions également mettre en place une base de données et un formulaire permettant de laisser des commentaires sur 
+                les films ou séries. Le projet a été réalisé en <strong>Vue.js</strong> et <strong>PHP</strong>.
+            </div>,
         srcGithub: "https://github.com/ebialais/allezcine",
         srcProjet: " https://ebialais.github.io/allezcine/",
     },{
@@ -73,10 +94,13 @@ const travaux = [
         title: "PodCode",
         logo: "/img/logo/podcast.svg",
         imgs: "/img/img/PodCode.png",
-        text: `Projet réalisé avec un collègue de BeCode pour la mise en place d'un Podcast à destination des apprentis 
-                developpeur web. Réalisé en Vue.js, PodCode est une single Page Application qui accueillera 
-                dans un avenir proche les différentes émissions réalisés par les apprenants de BeCode.`,
-        color: "#f5efe3",
+        text: 
+            <div>
+                Site web réalisé à deux pour la mise en place d'un <strong>Podcast à destination des apprentis 
+                developpeur web</strong>. PodCode est une <strong>single Page Application</strong> qui accueillera 
+                dans un avenir proche les différentes émissions réalisés par les apprenants de BeCode.
+                Le projet a été réalisé en <strong>Vue.js</strong>.
+            </div>,
         srcGithub: "https://github.com/ebialais/podcode-landing-page",
         srcProjet: "https://andresgol.github.io/podcode-landing-page/#/",
     },{
@@ -84,9 +108,12 @@ const travaux = [
         title: "On Stage",
         logo: "/img/logo/react.svg",
         imgs: "/img/img/onStage.png",
-        text: `Projet react necessitant l'intégration d'une API au choix et son affichage sous forme
-                de talbeau paginé. Au clic sur un élement du tableau, plus de détails devaient être affichés.
-                Par ailleurs il fallait pouvoir intégrer matérial-UI au projet.`,
+        text: 
+            <div>
+                Projet intégrant les information venant d'une <strong>API</strong> au choix et son affichage sous forme
+                de <strong>talbeau paginé</strong>. Au clic sur un élement du tableau, plus de détails sont affichés.
+                L'API choisie est celle de "TicketMaster". Le projet est réalisé en <strong>React</strong> et avec <strong>matérial-UI</strong>.
+            </div>,
         color: "#f5efe3",
         srcGithub: "https://github.com/ebialais/FamoTestAPI",
         srcProjet: "https://ebialais.github.io/FamoTestAPI/",

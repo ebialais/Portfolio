@@ -2,7 +2,7 @@
   "name": "portofolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ebialais.github.io/FamoTestAPI/",
+  "homepage": "https://ebialais.github.io",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

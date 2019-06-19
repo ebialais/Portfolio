@@ -23,9 +23,9 @@ export default class InfosWork extends Component {
                 <h2 className="h2InfosWork">
                     {elem.title}
                 </h2>
-                <p className="pInfosWork">
+                <div className="pInfosWork">
                     {elem.text}
-                </p>
+                </div>
                 <img src={elem.imgs} className="imgInfosWork" />
                 <div className="linkInfosWork">
                     <a href={elem.srcGithub} target="_blank"><i className="fab fa-github faLinkInfosWork"></i></a>
