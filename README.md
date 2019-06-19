@@ -23,7 +23,7 @@ You can find in this portfolio :
 - React.js
 - CSS
 
-- This portfolio is hosted at https://ebialais.github.io/
+This portfolio is hosted at https://ebialais.github.io/
 
 ## Versioning
 We use Github Projects for versioning. For the versions available, see the tags on this repository.
